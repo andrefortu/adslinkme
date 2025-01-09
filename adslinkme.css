@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #2e2d2d;
+  color: #fffffff1;
+  margin: 10px;
+}
+
+.site {
+  background:linear-gradient(45deg,#000,#fff);
+}
+
+.site i {
+  color:#000;
+}
+
+.zap {
+  background:linear-gradient(45deg,#3eb35b,#1c7921);
+}
+
+.face {
+  background:linear-gradient(45deg,#8598ec,#3654da);
+}
+
+.insta {
+  background:linear-gradient(45deg,#d36ea9,#b6558e);
+}
+
+.mail {
+  background:linear-gradient(45deg,#daaa52,#c2820a);
+}
+
+.youtube {
+  background:linear-gradient(45deg,#df4545,#e20707);
+}
+
+.contato {
+  background:linear-gradient(45deg,#452f83,#2e1d5a);
+}
+
+@keyframes movimento {
+  from {
+    margin-left:100px;
+    margin-right:-100px;
+  }
+  to {
+    margin:0.9em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+  font:inherit;
+  animation: movimento 1s;
+  border-radius: 30px;
+}
+
+a:hover {
+  margin:0.7em;
+}
+
+#app {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+}
+
+#links {
+  width:100%;
+}
+
+a {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  min-width:200px;
+  padding:1.2em;
+  margin:0.9em;
+}
+
+#logo {
+  width:200px;
+}
+
+@media screen and (min-width: 600px) {
+  #app {
+    flex-direction:row;
+    justify-content:center;
+  }
+  #logo {
+    margin-right:50px;
+  }
+  a {
+    max-width:400px;
+  }
+  #links {
+    width:400px;
+    margin-top:3em;
+  }
+}
+
+
