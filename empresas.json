@@ -1,0 +1,56 @@
+{
+    "ads": [
+        {
+            "tipo": "site",
+            "rotulo": "Site ADS",
+            "conteudo": "https://www.adsmktdigital.com.br/"
+        },
+        {
+            "tipo": "whatsapp",
+            "rotulo": "Whatsapp Novo",
+            "conteudo": "5516992381003"
+        },
+        {
+            "tipo": "facebook",
+            "rotulo": "Facebook",
+            "conteudo": "Ads-Marketing-Digital-108448298105657"
+        },
+        {
+            "tipo": "instagram",
+            "rotulo": "Instagram",
+            "conteudo": "ads_mktdigital"
+        },
+        {
+            "tipo": "email",
+            "rotulo": "E-mail",
+            "conteudo": "comercial.adsmktdigital@gmail.com"
+        },
+        {
+            "tipo": "youtube",
+            "rotulo": "Youtube",
+            "conteudo": "@adsmarketingdigital3050"
+        },
+        {
+            "tipo": "contato",
+            "rotulo": "Contato",
+            "conteudo": "https://drive.google.com/file/d/1ntegC5TY9VbmPQatbYMAAeK5WSQs_3Xg/view?usp=sharing"
+        }
+    ],
+    "google": [
+        {
+            "tipo": "site",
+            "rotulo": "Site Google",
+            "conteudo": "https://www.google.com.br/"
+        },
+        {
+            "tipo": "site",
+            "rotulo": "Outro Site",
+            "conteudo": "https://docs.google.com/"
+        },
+        {
+            "tipo": "contato",
+            "rotulo": "Drive",
+            "conteudo": "http://drive.google.com/"
+        }
+    ]
+}
